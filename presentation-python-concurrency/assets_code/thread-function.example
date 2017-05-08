@@ -1,0 +1,8 @@
+def countdown(count):
+  while count > 0:
+    print "Counting down", count
+    count -= 1
+    time.sleep()
+
+t1 = threading.Thread(target=countdown, args=(10,0))
+t1.start()

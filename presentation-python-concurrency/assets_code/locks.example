@@ -1,0 +1,5 @@
+lock = Lock()
+
+lock.adquire()
+... access shared resoruce
+lock.release()

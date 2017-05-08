@@ -1,0 +1,4 @@
+def get_both_parts():
+    first = get_first_part()
+    second = get_second_part()
+    return first, second

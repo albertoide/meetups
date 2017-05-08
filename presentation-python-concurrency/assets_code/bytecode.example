@@ -1,0 +1,4 @@
+LOAD_GLOBAL 0 (counter)
+LOAD_CONST 1 (1)
+INPLACE_ADD
+STORE_GLOBAL 0 (counter)

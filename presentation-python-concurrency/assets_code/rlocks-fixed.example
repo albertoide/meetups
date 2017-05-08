@@ -1,0 +1,10 @@
+lock = threading.RLock()
+
+def get_first_part()
+    ...
+
+def get_second_part()
+    ...
+
+def get_both_parts():
+    ...

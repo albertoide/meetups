@@ -1,0 +1,17 @@
+lock = threading.Lock()
+
+def get_first_part():
+    lock.acquire()
+    try:
+        ... fetch data for first part from shared object
+    finally:
+        lock.release()
+    return data
+
+def get_second_part():
+    lock.acquire()
+    try:
+        ... fetch data for second part from shared object
+    finally:
+        lock.release()
+    return data
